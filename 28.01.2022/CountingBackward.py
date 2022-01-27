@@ -4,10 +4,10 @@ def backwardsby2(num):
         print('Zero!')
         return
     else:
-        emojismiles = []
+        item = []
         for i in range(0, num):
-            emojismiles += '*'
-        print(num, ' '.join(emojismiles))
+            item += '*'
+        print(num, ' '.join(item))
         backwardsby2(num - 1)
 
 backwardsby2(5)
