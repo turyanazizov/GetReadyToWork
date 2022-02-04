@@ -1,3 +1,5 @@
+import this
+
 property=input('Axtarilan Property: ')
 
 thisdict = {
